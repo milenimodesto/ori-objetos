@@ -1,0 +1,14 @@
+class Carro 
+construtor(modelo, cor, potencia){
+this.modelo = modelo;
+this.cor = cor;
+this.potencia = potencia;
+}
+mostrarInformacoes() {
+console.log('O carro é um ${this.modelo} e a cor dele é 4{this.cor} a potencia dele em cavalo ${this.potencia}`);
+}
+}
+let meuCarro = new Carro("fusca","azul", 200);
+let carrpfelipe = new Carro("fiat 147","amarelo",300);
+meuCarro.mostrarInformacoes();
+carrosfelipe.mostrarInformacoes();
